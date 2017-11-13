@@ -18,9 +18,6 @@ class Import
     {
         $this->reader = $reader;
         $this->writer = $writer;
-
-        $this->converter = null;
-        $this->modifier = null;
     }
 
     public function setFieldRenamer(FieldRename $fieldRename)
